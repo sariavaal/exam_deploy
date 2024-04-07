@@ -9,7 +9,7 @@ const cookieParser = require('cookie-parser'); // to be able to read cookies
 app.use(cookieParser());
 
 const corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'http://64.23.180.60',
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
 }
